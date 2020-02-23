@@ -1,0 +1,86 @@
+body{
+	background: #232323; 
+	margin: 0;
+	font-family: "Montserrat" "Avenir";
+}
+#new{
+	margin-left: 30px;
+}
+.square{
+	width: 30%;
+	margin: 1.66%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s; 
+	--webkit-transition: background 0.6s; 
+	-moz-transition: background 0.6s; 
+}
+.container{
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 10px;
+}
+h1{
+	color: white;
+	text-align: center;
+	background: steelblue;
+	font-weight: normal;
+	text-transform: uppercase; 
+	line-height: 1.1;
+	padding: 20px 0;
+}
+#display{
+	font-size: 200%;
+}
+#display:nth-of-child(1){
+	color:red;
+}
+#textMessage{
+	display: inline-block;
+	width: 20%;
+	font-size: 20px;
+}
+#score{
+	display: inline-block;
+	width: 20%;
+	font-size: 20px;
+}
+.stripe{
+	height: 30px;
+	background: white;
+	text-align: center;
+	color: black;
+}
+h1,.stripe{
+	margin: 0;
+}
+
+.selected{
+	background: steelblue;
+	color: white;
+}
+button{
+	border: none;
+	font-family: "Montserrat" "Avenir";
+	text-transform: uppercase;
+	background: none;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	outline: none;
+	transition: all 0.4s;
+	--webkit-transition: all 0.4s; 
+	-moz-transition: all 0.4s; 
+}
+button:hover{
+	background: steelblue;
+	color:white;
+}
+/*#easy,#hard{
+	margin-right: 20px;
+}*/
